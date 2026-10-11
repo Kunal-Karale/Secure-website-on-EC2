@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secure EC2 Web Server</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 16px;
+    padding: 50px 40px;
+    max-width: 500px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #dce6f2;
+  }
+  .badge {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 18px;
+    background: #16c784;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>🔒 Secure Web Server on EC2</h1>
+    <p>
+      This page is hosted on an AWS EC2 instance, secured with
+      Security Groups, IAM roles, and served via Apache.
+      Deployed as part of a hands-on cloud engineering project.
+    </p>
+    <span class="badge">Server: Online ✅</span>
+  </div>
+</body>
+</html>
